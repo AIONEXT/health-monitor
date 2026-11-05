@@ -1,0 +1,23 @@
+{
+  "name": "health-monitor",
+  "version": "0.1.0",
+  "description": "Background health and security monitoring for AIONEXT packages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.3",
+    "prom-client": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
+  }
+}
